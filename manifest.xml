@@ -189,6 +189,46 @@
         </interface>
     </hal>
     <hal format="hidl">
+        <name>vendor.oplus.hardware.appradio</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IOplusAppRadio</name>
+            <instance>oplus_app_slot1</instance>
+            <instance>oplus_app_slot2</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.oplus.hardware.ims</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IOplusImsRadio</name>
+            <instance>oplusimsradio0</instance>
+            <instance>oplusimsradio1</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.oplus.hardware.radio</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IOplusRadio</name>
+            <instance>oplus_slot1</instance>
+            <instance>oplus_slot2</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.oplus.hardware.subsys_radio</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ISubsysRadio</name>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
         <name>vendor.qti.data.factory</name>
         <transport>hwbinder</transport>
         <version>2.3</version>
